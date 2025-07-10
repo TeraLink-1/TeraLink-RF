@@ -1,5 +1,5 @@
 module Components {
-    @ RF communication protocol manager and message router
+    @ Higher-level RF protocol handling and message routing
     active component RFCommManager {
 
         # One async command/port is required for active components

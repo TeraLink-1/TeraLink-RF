@@ -1,6 +1,6 @@
 # Components::RFCommManager
 
-RF communication protocol manager and message router
+Higher-level RF protocol handling and message routing
 
 ## Usage Examples
 Add usage examples here

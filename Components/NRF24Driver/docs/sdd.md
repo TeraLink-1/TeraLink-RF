@@ -1,6 +1,6 @@
 # Components::NRF24Driver
 
-Hardware driver for NRF24L01+ radio module SPI communication
+Low-level SPI communication driver for NRF24L01+ radio module
 
 ## Usage Examples
 Add usage examples here

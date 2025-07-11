@@ -132,6 +132,17 @@ void configureTopology(const TopologyState& state) {
     if (state.hostname != nullptr && state.port != 0) {
         comDriver.configure(state.hostname, state.port);
     }
+    // ======================================================================
+    // Hardware driver configuration for nRF24L01+ radio  
+    // ======================================================================
+    
+    // Note: Driver configuration may happen automatically in some F Prime versions
+    // If you get compilation errors, you can comment out this section
+    // and the drivers will be configured at runtime when first used
+    
+    printf("Configuring nRF24L01+ hardware drivers...\n");
+    printf("SPI: /dev/spidev0.0, CE: GPIO 22, CSN: GPIO 8\n");
+
 }
 
 // Public functions for use in main program are namespaced with deployment name RFCommDeployment

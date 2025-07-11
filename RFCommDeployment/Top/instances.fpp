@@ -70,7 +70,7 @@ module RFCommDeployment {
 
   # comment in Svc.TlmChan or Svc.TlmPacketizer
   # depending on which form of telemetry downlink
-  # you wish to use
+  # we want to use 
 
   instance tlmSend: Svc.TlmChan base id 0x0C00 \
     queue size Default.QUEUE_SIZE \
